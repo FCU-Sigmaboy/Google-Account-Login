@@ -134,18 +134,18 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ```
 ├── app/
-│   └── app.vue              # Root component
-├── assets/
-│   └── css/
-│       └── main.css         # Global styles
-├── components/
-│   └── LoginModal.vue       # Login modal component
-├── composables/
-│   └── useSupabaseClient.ts # Supabase client composable
-├── pages/
-│   ├── index.vue            # Home page
-│   └── auth/
-│       └── callback.vue     # OAuth callback handler
+│   ├── app.vue              # Root component
+│   ├── assets/
+│   │   └── css/
+│   │       └── main.css     # Global styles
+│   ├── components/
+│   │   └── LoginModal.vue   # Login modal component
+│   ├── composables/
+│   │   └── useSupabaseClient.ts # Supabase client composable
+│   └── pages/
+│       ├── index.vue        # Home page
+│       └── auth/
+│           └── callback.vue # OAuth callback handler
 ├── nuxt.config.ts           # Nuxt configuration
 └── .env.example             # Environment variables template
 ```
